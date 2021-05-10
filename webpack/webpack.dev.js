@@ -4,9 +4,7 @@ module.exports = {
     mode: 'development',
     devtool: 'cheap-module-source-map',
     devServer: {
-        hot: true
+        hot: true,
     },
-    plugins: [
-        new ReactRefreshWebpackPlugin()
-    ]
-}
+    plugins: [new ReactRefreshWebpackPlugin()],
+};

@@ -6,11 +6,11 @@ const App = () => {
 
     return (
         <>
-            <img src={Logo} alt="react logo"/>
+            <img src={Logo} alt="react logo" />
             <h1>React & TypeScript</h1>
             <button onClick={() => setCount(count + 1)}>{count}</button>
         </>
-    )
-}
+    );
+};
 
 export default App;
