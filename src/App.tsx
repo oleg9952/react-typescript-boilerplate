@@ -3,7 +3,6 @@ import Logo from '/public/assets/react-logo.jpeg';
 
 const App = () => {
     const [count, setCount] = useState(0);
-
     return (
         <>
             <img src={Logo} alt="react logo" />
